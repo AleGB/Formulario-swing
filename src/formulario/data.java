@@ -1,10 +1,12 @@
 package formulario;
 public class data {
+    //variables donde almacena los datos 
     private String nombre;
     private String pat;
     private String mat;
     private String skl;
-
+ /*get y sets de cada variable para llamarlos en 
+ la conexion de la base de datos*/
     public String getNombre() {
         return nombre;
     }
